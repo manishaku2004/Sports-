@@ -130,7 +130,13 @@ footer {
     width: 100%;
     background-color: #232f3e;
     color: aliceblue;
-    /* flex-direction: row; */
+    flex-direction: row;
+}
+.manisha{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    
 }
 
 footer .ram {
@@ -263,20 +269,25 @@ footer .ram4 {
     }
 
 
+ 
 }
 
-@media screen and(max-width:513px) {
-    .nav {
-        width: 97%;
+@media screen and (max-width:538px) {
+    /* .nav {
+        width: 100%;
 
     }
+     */
 
-    footer {
+    .manisha {
+        width: 100%;
         display: flex;
         flex-direction: column;
 
     }
 
+
+
     .logo1 img {
         width: 350px;
     }
@@ -284,9 +295,9 @@ footer .ram4 {
 
 }
 
-@media screen and (max-width:395) {
+@media screen and (max-width:355) {
 
     .logo1 img {
-        width: 350px;
+        width: 300px;
     }
 }
